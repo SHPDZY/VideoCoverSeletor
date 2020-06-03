@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <ImageView
+        android:id="@+id/iv_cover"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <com.zy.videocoverselector.view.ShortVideoSelectCover
+        android:id="@+id/video_cutter_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"/>
+
+    <Button
+        android:id="@+id/btn_select"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="选择封面"/>
+
+</LinearLayout>
